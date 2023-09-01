@@ -3,9 +3,12 @@
 ## Яндекс.Практика. Кагорта 04. 01 спринт. Студент Илья Тыщук
 
 **Интро**
-[Проект "Оно тебе надо"]('github.com:ilyaT12/ono-tebe-nado.git). - ссылка на gh-repositories.
+[Проект "Оно тебе надо"]('github.com:ilyaT12/ono-tebe-nado.git.git). - ссылка на gh-repositories.
+
 Одностраничный сайт.
-Сайт не адаптирован. Максимальная ширина сайта 1440px.
+
+Сайт не адаптирован. 
+Максимальная ширина сайта 1440px.
 
 **Технологии**
 - [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML)
