@@ -149,9 +149,9 @@
   line-height: 28px;
   text-transform: uppercase;
   color: #FFF;
-  font-family: Raleway;
-  width: 257px;
-  height: 52px;
+  font-family: Raleway, sans-serif;
+  min-width: 257px;
+  min-height: 52px;
   border: 2px solid #fff;
   background-color: rgba(0, 0, 0, 0);
   cursor: pointer;
@@ -188,28 +188,24 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  height: 450px;
+  min-height: 450px;
   width: 430px;
   padding: 50px 40px;
   justify-content: space-between;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card_type_book {
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card_type_picture {
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .card__title {
