@@ -1,6 +1,6 @@
 /* место для вашего кода */
-@import url(../fonts/fonts.css);
-@import url(../styles/global.css);
+/* @import url(../fonts/fonts.css);
+@import url(../styles/global.css); */
 
 /* блок header */
 .header {
@@ -8,7 +8,11 @@
   grid-template-columns: auto 1fr auto;
   margin: 0 auto;
   align-items: center;
-  margin: 92px 49px 96px 51px;
+  margin: 92px 24px 96px;
+}
+
+.header__menu {
+  margin-left: 28px;
 }
 
 .header__links-list {
@@ -37,17 +41,26 @@
   max-width: 148px;
   max-height: 105px;
   display: flex;
-  margin-left: 209px;
+  margin-left: 38px;
+}
+
+.header__address {
+  margin-right: 58px;
 }
 
 .address {
   display: flex;
   flex-direction: column;
-  margin-right: 4px;
   font-size: 18px;
-   font-style: normal;
-   line-height: 24.3px;
+  font-style: normal;
+  line-height: 24.3px;
+  letter-spacing: 0.01em;
 }
+
+.address__link {
+  text-underline-offset: 4px;
+}
+
 
 /* блок cover */
 .cover {
@@ -98,7 +111,7 @@
 
 .aligned-text_center {
   display: block;
-  padding-left: 455px
+  padding-left: 286px;
 }
 
 .aligned-text_center__first {
@@ -168,7 +181,7 @@
   font-weight: 700;
   line-height: normal;
   text-transform: uppercase;
-  margin-left: 40px;
+  margin-left: 14px;
 }
 
 .lots__card-list {
@@ -177,7 +190,7 @@
   justify-content: center;
   list-style: none;
   margin: 28px 0;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
 }
 
 .card-link {
@@ -188,8 +201,8 @@
   position: relative;
   display: flex;
   flex-direction: column;
-  min-height: 450px;
-  width: 430px;
+  min-height: 563px;
+  width: 334px;
   padding: 50px 40px;
   justify-content: space-between;
   background-size: cover;
@@ -212,7 +225,7 @@
   z-index: 1;
   color: #fff;
   font-size: 22px;
-  line-height: 120%;
+  line-height: 115%;
   text-decoration-line: underline;
   text-transform: uppercase;
 }
@@ -225,17 +238,18 @@
 
 .lots__look-more-link {
   font-size: 20px;
-  margin-left: 40px;
+  margin-left: 14px;
   text-decoration: none;
     border-bottom: 1px solid;
 }
 
 /* блок about */
 .about {
-  margin: 0 50px 180px 50px;
+  margin: 0 24px 180px;
   display: grid;
-  grid-template-columns: 430px 1fr;
+  grid-template-columns: 332px 1fr;
   justify-items: center;
+  padding-top: 2px;
 }
 
 .about__logo {
@@ -273,6 +287,7 @@
 .about__text {
   font-size: 20px;
   font-weight: 400;
+  letter-spacing: 0.01px;
 }
 
 /* блок footer */
@@ -295,6 +310,10 @@
 
 .footer__link_active {
   border-bottom: none;
+}
+
+.footer__menu {
+  margin-left: 34px;
 }
 
 .footer__social-list {
