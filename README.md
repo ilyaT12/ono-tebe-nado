@@ -2,7 +2,7 @@
 
 ## Яндекс.Практика. Кагорта 25. 01 спринт. Студент Илья Тыщук
 
-**Интро**
+**Интро**  
 [Проект "Оно тебе надо"](https://github.com/ilyaT12/ono-tebe-nado.git) - ссылка на gh-repositories.  
 [Оно тебе надо](https://ilyat12.github.io/ono-tebe-nado/) - ссылка на страницу.
 
