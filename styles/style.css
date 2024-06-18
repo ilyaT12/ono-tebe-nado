@@ -6,7 +6,6 @@
 .header {
   display: grid;
   grid-template-columns: auto 1fr auto;
-  margin: 0 auto;
   align-items: center;
   margin: 92px 24px 96px;
 }
@@ -247,7 +246,7 @@
 .about {
   margin: 0 24px 180px;
   display: grid;
-  grid-template-columns: 332px 1fr;
+  grid-template-columns: 335px 1fr;
   justify-items: center;
   padding-top: 2px;
 }
